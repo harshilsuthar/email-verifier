@@ -1,5 +1,5 @@
 """
-WSGI config for email_varifier project.
+WSGI config for email_verifier project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'email_varifier.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'email_verifier.settings')
 
 application = get_wsgi_application()
